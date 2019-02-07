@@ -19,9 +19,21 @@ p{
     color: var(--main-color);
 }
 
+hr{
+    margin: 5em;
+    border-color: var(--secondary-color);
+}
+
 
 
 /* header */
 #header-background{
     z-index: 1000;
+}
+
+/* custom button*/
+.custom-button{
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--accent-color)
 }
