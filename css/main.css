@@ -1,0 +1,39 @@
+/* Some variables */
+:root {
+
+    /* Color Palette */ 
+    --main-color:  #23272a;
+    --background-color:  #ffffff;
+    --secondary-color:  #99aab5;
+    --highlight-color: #7289da;
+    --accent-color:  #2c2f33;
+}
+
+
+/* Main Classes */
+body{
+    background-color: var(--background-color);
+}
+
+p{
+    color: var(--main-color);
+}
+
+hr{
+    margin: 5em;
+    border-color: var(--secondary-color);
+}
+
+
+
+/* header */
+#header-background{
+    z-index: 1000;
+}
+
+/* custom button*/
+.custom-button{
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--accent-color)
+}
